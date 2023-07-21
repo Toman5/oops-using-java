@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+class large
+{
+public static void main(Strings[] args)
+{
+int a[]={1,2,3,4,5};
+int i;
+int max=a[0];
+int min=a[0];
+int n=a.length;
+for(i=0;i<=n;i++)
+{
+if(min>i)
+{
+min=i;
+}
+else if(max<i)
+{
+max=i;
+}
+}
+System.out.println("min="+min);
+System.out.println("max="+max);
+}
+}
+
